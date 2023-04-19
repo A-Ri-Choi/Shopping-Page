@@ -1,0 +1,34 @@
+.footerContainer {
+  width: 100vw;
+  height: 20rem;
+  background: rgb(36, 41, 51);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footerItems {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: rgb(166, 173, 186);
+}
+
+.icons {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.icons > li {
+  padding-left: .5rem;
+}
+
+.snsIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.snsIcons > li {
+  padding-left: 1rem;
+}

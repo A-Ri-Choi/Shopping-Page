@@ -1,0 +1,42 @@
+.itemListBoxContainer {
+  padding-top: 2em;
+  width: 100vw;
+}
+
+.categoryName {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: rgb(166, 173, 186);
+  padding-bottom: 2rem;
+}
+
+.itemCardContainer {
+  padding: 0 2rem;
+  /* padding-top: 2em; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+@media (max-width: 75rem) {
+  .itemCardContainer {
+    grid-template-columns: 1fr 1fr;
+    /* padding: 0 8rem; */
+  }
+}
+
+@media (max-width: 640px) {
+  .itemCardContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding: 0 8rem; */
+    overflow: scroll;
+    overflow-x: scroll;
+  }
+}
+
+
+.topPath {
+  padding: 2.5rem 0 0 3.5rem;
+  color: rgb(166, 173, 186);
+}

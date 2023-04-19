@@ -1,0 +1,55 @@
+.cardExample {
+  margin: 13px;
+  /* width: 19.3rem; */
+  min-width: 17rem;
+  height: 30em;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.imgBox {
+  height: 65%;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.itemImg {
+  padding-top: 60px;
+  width: 38%;
+  height: 70%;
+  transition: all .3s;
+}
+
+.itemImg:hover {
+  padding-top: 60px;
+  width: 43%;
+  height: 75%;
+}
+
+.content {
+  height: 35%;
+  background: rgb(55, 65, 81);
+  color: rgb(229, 231, 235);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 28px;
+  position: relative;
+  color: rgb(166, 173, 186);
+}
+
+.description {
+  width: 95%;
+  line-height: 24px;
+}
+
+.price {
+  width: 95%;
+  position: absolute;
+  bottom: 25px;
+}
+
+.productList {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}

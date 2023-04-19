@@ -1,0 +1,162 @@
+.headerContainer {
+  width: 100vw;
+  display: flex;
+  background: rgb(25, 29, 36);
+  color: rgb(255, 255, 255);
+  height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  position: fixed;
+  z-index: 10;
+}
+
+.listBar {
+  position: fixed;
+  margin-top: 4.5rem;
+  padding-top: 1rem;
+  background: rgb(49, 61, 81);
+  width: 15rem;
+  height: 30rem;
+  z-index: 11;
+  display: block;
+}
+
+.listItems {
+  margin-left: 1rem;
+  font-size: 16px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.listItem {
+  padding-left: 1rem;
+}
+
+.listItem:hover {
+  width: 12rem;
+  border-radius: 8px;
+  background-color: rgb(73, 91, 121);
+}
+
+.shopContaienr {
+  margin: 0 32px 0 32px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 628px) {
+  .shopContaienr {
+    margin: 0 10px;
+  }  
+}
+
+.listBtn {
+  display: none;
+}
+
+@media (max-width: 628px) {
+  .listBtn {
+    display: block;
+    padding-right: 1rem;
+  }
+}
+
+.findContainer {
+  display: flex;
+  align-items: center;
+}
+
+.shopName {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 24px;
+}
+
+/* .shopMenu {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+} */
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.SunAndMoonIcon {
+  position: relative;
+  width: 1.7rem;
+  height: 1.5rem;
+}
+
+.sunIcon {
+ /* display: block; */
+ display: none;
+}
+
+.moonIcon {
+  /* display: none; */
+  display: block;
+}
+
+.shopCart {
+  position: relative;
+  width: 2.3rem;
+  height: 1.5rem;
+}
+
+.circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: blueviolet;
+  color: azure;
+  border-radius: 50px;
+  text-align: center;
+  position: absolute;
+  line-height: 20px;
+  font-size: 13px;
+  top: -5px;
+  right: 0;
+}
+
+.input {
+  border-radius: 2px;
+  width: 11rem;
+  height: 2.8rem;
+  /* border: 1px solid rgb(75, 85, 99); */
+  border: 0;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(75, 85, 99);
+}
+
+input:focus {
+  outline: none;
+}
+
+.dataResult {
+  position: absolute;
+  margin-top: 0.5rem;
+  width: 15rem;
+  height: 20rem;
+  overflow: hidden;
+  overflow-y: auto;
+  /* padding-top: 1.3rem; */
+}
+
+.dataItem {
+  width: 100%;
+  /* height: 3.2rem; */
+  display: flex;
+  align-items: center;
+  background: rgb(75, 85, 99);
+  padding: 0.8rem;
+}
+
+.dataItem:hover {
+  background: rgb(119, 135, 157);
+}
+

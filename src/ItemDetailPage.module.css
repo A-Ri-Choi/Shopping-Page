@@ -1,0 +1,138 @@
+/* .mainDefault {
+  width: 100%;
+  height: 100%;
+  background: rgb(43, 51, 61);
+} */
+
+.rootName {
+  /* height: 20px; */
+  padding: 25px 0 0 40px;
+  color: rgb(166, 173, 186);
+  overflow-x: scroll;
+  overflow: scroll;
+}
+
+.itemDetailContainer {
+  padding: 6rem 5rem;
+  width: 100vw;
+  display: flex;
+}
+
+@media (max-width: 1011px) {
+  .itemDetailContainer {
+    display: block;
+  }
+}
+
+.imgBox {
+  width: 25.5rem;
+  height: 23em;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@media (max-width: 1011px) {
+  .imgBox {
+    width: 100%;
+    position: relative;
+    overflow-x: scroll;
+    overflow: scroll;
+  }
+}
+
+.img {
+  width: 23rem;
+  height: 20em;
+  padding: 10px 35px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 1011px) {
+  .img {
+    text-align: center;
+    padding: 20px 50px;
+    position: absolute;
+    left: 10%;
+  }
+}
+
+.ContentBox {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 60%;
+  color: rgb(166, 173, 186);
+}
+
+@media (max-width: 1011px) {
+  .ContentBox {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    color: rgb(166, 173, 186);
+  }
+}
+
+.namePart {
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.badge {
+  width: 3rem;
+  height: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  background: rgb(246, 246, 146);
+  padding: 1px 7px;
+  border-radius: 2em;
+  margin: 0 10px;
+  color: rgb(93, 97, 105);
+}
+
+.description {
+  margin-top: 15px;
+  line-height: 24px;
+}
+
+.starRate {
+  margin-top: 15px;
+  display: flex;
+}
+
+.price {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button {
+  display: flex;
+}
+
+.productRating {
+  text-align: center;
+  align-items: center;
+  line-height: 24px;
+}
+
+.cartInBtn {
+  display: flex;
+  /* width: 8em; */
+  height: 3.3em;
+  padding: 7px 20px;
+  border-radius: 8px;
+  border:none;
+  background: rgb(25, 29, 36);
+  color: rgb(225, 225, 225);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.cartInBtn:hover {
+  background: rgb(28, 34, 45);
+}

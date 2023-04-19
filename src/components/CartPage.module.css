@@ -1,0 +1,126 @@
+.topPath {
+  padding: 2.5rem 0 0 3.5rem;
+  color: rgb(166, 173, 186);
+}
+
+.cartItemList {
+  width: 75vw;
+  /* height: 100rem; */
+}
+
+.pageContainer {
+  display: flex;
+  padding-top: 4rem;
+  color: rgb(166, 173, 186);
+}
+
+@media (max-width: 1038px) {
+  .pageContainer {
+    display: block;
+  }
+}
+
+.cartItemList {
+  display: block;
+}
+
+.itemListBoxContainer {
+  padding-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.imgBox {
+  width: 13.5rem;
+  height: 13.5rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background: white;
+}
+
+.contentBox {
+  margin-left: 2.5rem;
+  width: 50rem;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  top: 20%;
+}
+
+.title {
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+.buyButton {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  /* margin-right: 0; */
+}
+
+.price {
+  font-size: 30px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1038px) {
+  .price {
+    padding: 1rem;
+  }
+}
+
+.all {
+  line-height: 45px;
+  font-size: 24px;
+  margin-right: 1rem;
+}
+
+.countButton {
+  display: flex;
+}
+
+.addRemoveBtn {
+  display: flex;
+  /* width: 8em; */
+  height: 3.3em;
+  padding: 5px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(25, 29, 36);
+  background: rgb(25, 29, 36);
+  color: rgb(225, 225, 225);
+  align-items: center;
+}
+
+.addRemoveBtn:hover {
+  background: rgb(28, 34, 45);
+}
+
+.buttonMiddle {
+  text-align: center;
+  align-items: center;
+  line-height: 2.7rem;
+  width: 2rem;
+  height: 2.7rem;
+}
+
+.buyBtn {
+  display: flex;
+  /* width: 8em; */
+  height: 3.3em;
+  padding: 7px 20px;
+  border-radius: 8px;
+  border:none;
+  background: rgb(25, 29, 36);
+  color: rgb(225, 225, 225);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.buyBtn:hover {
+  background: rgb(28, 34, 45);
+}

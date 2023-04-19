@@ -1,0 +1,38 @@
+.itemListBoxContainer {
+  padding-top: 3em;
+  width: 100vw;
+}
+
+.categoryName {
+  text-align: center;
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+}
+
+/* .itemCardContainer {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  padding: 50px;
+} */
+
+.itemCardContainer {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+@media (max-width: 75rem) {
+  .itemCardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .itemCardContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: scroll;
+    overflow-x: scroll;
+  }
+}
